@@ -34,7 +34,7 @@ def stats():
 
     st.download_button(
         label="Download data as CSV",
-        data='insurance.csv',
+        data='https://github.com/professordutta/insurance/blob/main/insurance.csv',
         file_name='data.csv',
         mime='text/csv',
     )
